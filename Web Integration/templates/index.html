@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Plugging into the Future</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+nav {
+    background-color: #1f2933;
+    padding: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    background: white;
+    margin: 25px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h2 { color: #1f2933; }
+h3 { margin-top: 40px; }
+
+footer {
+    background-color: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#dashboards">Dashboards</a>
+    <a href="#stories">Stories</a>
+    <a href="#conclusion">Conclusion</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+<h2>Plugging into the Future</h2>
+<p>
+This project analyzes electricity consumption patterns using Tableau dashboards and stories.
+It highlights time-based usage, seasonal trends, and appliance-level electricity consumption.
+</p>
+<p>
+The insights support informed decision-making for efficient and sustainable energy usage.
+</p>
+</section>
+
+<!-- DASHBOARDS -->
+<section id="dashboards">
+<h2>Dashboards</h2>
+
+<h3>Dashboard 1: Electricity Consumption Pattern Analysis</h3>
+
+<div class='tableauPlaceholder' id='vizDashboard1'>
+<object class='tableauViz' style='display:none;'>
+<param name='host_url' value='https://public.tableau.com/' />
+<param name='embed_code_version' value='3' />
+<param name='site_root' value='' />
+<param name='name' value='Dashboard1_17717464793650/Dashboard1' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+</object>
+</div>
+
+<script>
+var div = document.getElementById("vizDashboard1");
+var viz = div.getElementsByTagName("object")[0];
+viz.style.width="100%";
+viz.style.height="800px";
+var s = document.createElement("script");
+s.src="https://public.tableau.com/javascripts/api/viz_v1.js";
+viz.parentNode.insertBefore(s, viz);
+</script>
+
+<h3>Dashboard 2: Detailed Electricity Usage Insights</h3>
+
+
+<div class='tableauPlaceholder' id='vizDashboard2'>
+<object class='tableauViz' style='display:none;'>
+<param name='host_url' value='https://public.tableau.com/' />
+<param name='embed_code_version' value='3' />
+<param name='site_root' value='' />
+<param name='name' value='Dashboard2_17717459947400/Dashboard1' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+</object>
+</div>
+
+<script>
+var div = document.getElementById("vizDashboard2");
+var viz = div.getElementsByTagName("object")[0];
+viz.style.width="100%";
+viz.style.height="800px";
+var s = document.createElement("script");
+s.src="https://public.tableau.com/javascripts/api/viz_v1.js";
+viz.parentNode.insertBefore(s, viz);
+</script>
+
+</section>
+
+<!-- STORIES -->
+<section id="stories">
+<h2>Stories</h2>
+
+<h3>Story 1: Time-of-Day Usage Patterns</h3>
+<div class='tableauPlaceholder' id='vizStory1'>
+<object class='tableauViz' style='display:none;'>
+<param name='host_url' value='https://public.tableau.com/' />
+<param name='embed_code_version' value='3' />
+<param name='site_root' value='' />
+<param name='name' value='STORY1_16972581167590/Story2' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+</object>
+</div>
+
+<script>
+var div = document.getElementById("vizStory1");
+var viz = div.getElementsByTagName("object")[0];
+viz.style.width="100%";
+viz.style.height="900px";
+var s = document.createElement("script");
+s.src="https://public.tableau.com/javascripts/api/viz_v1.js";
+viz.parentNode.insertBefore(s, viz);
+</script>
+
+<h3>Story 2: Seasonal Electricity Trends</h3>
+<div class='tableauPlaceholder' id='vizStory2'>
+<object class='tableauViz' style='display:none;'>
+<param name='host_url' value='https://public.tableau.com/' />
+<param name='embed_code_version' value='3' />
+<param name='site_root' value='' />
+<param name='name' value='PluggingIntoTheFuture/Story3' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+</object>
+</div>
+
+<script>
+var div = document.getElementById("vizStory2");
+var viz = div.getElementsByTagName("object")[0];
+viz.style.width="100%";
+viz.style.height="900px";
+var s = document.createElement("script");
+s.src="https://public.tableau.com/javascripts/api/viz_v1.js";
+viz.parentNode.insertBefore(s, viz);
+</script>
+
+<h3>Story 3: Appliance-Level Consumption Insights</h3>
+<div class='tableauPlaceholder' id='vizStory3'>
+<object class='tableauViz' style='display:none;'>
+<param name='host_url' value='https://public.tableau.com/' />
+<param name='embed_code_version' value='3' />
+<param name='site_root' value='' />
+<param name='name' value='Story3_17717459667810/Story4' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+</object>
+</div>
+
+<script>
+var div = document.getElementById("vizStory3");
+var viz = div.getElementsByTagName("object")[0];
+viz.style.width="100%";
+viz.style.height="300px";
+var s = document.createElement("script");
+s.src="https://public.tableau.com/javascripts/api/viz_v1.js";
+viz.parentNode.insertBefore(s, viz);
+</script>
+
+</section>
+
+<!-- CONCLUSION -->
+<section id="conclusion">
+<h2>Conclusion</h2>
+<div style="
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+">
+    <img src="{{ url_for('static', filename='images/tq.jpg') }}"
+         alt="Thank You"
+         style="    
+            width: 280px;
+            display: block;
+            margin: auto;
+         ">
+    <p style="margin-top:10px; font-size:16px;">
+        Thank you for exploring our project!
+    </p>
+</div>
+<p>
+The project demonstrates how electricity consumption data can be converted into meaningful insights
+through Tableau dashboards and storytelling.
+</p>
+<p>
+It supports sustainable energy planning and efficient electricity usage.
+</p>
+<p><strong>Thank you for reviewing this project!</strong></p>
+</section>
+
+<footer>
+© 2025 | Electricity Consumption Analysis using Tableau
+</footer>
+
+</body>
+</html>
